@@ -63,6 +63,8 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   text-decoration: none;
+  margin-left: 60px; /* Отступ слева в пикселах */
+  margin-right: 10px; /* Отступ справа в пикселах */
 
 }
 
@@ -83,7 +85,6 @@ h2 {
 p {
   text-align: justify; /* Выравнивание по ширине */
   font-size: 20pt;
-
   color: white;
   margin: 0 5%;
 
