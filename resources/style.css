@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("fonts/Nunito-VariableFont_wght.ttf");
+}
+
+@font-face {
+
+  font-family: "Nunito-bold";
+  src: url("fonts/Nunito-ExtraBold.ttf");
+
+}
+
+body {
+  font-size: 11pt; /* Размер основного шрифта в пунктах  */
+  background: url(background.jpg);
+  background-color: white; /* Цвет фона веб-страницы */
+  color: #333; /* Цвет основного текста */ 
+}
+
+.title {
+  font-family: "Nunito";
+  color: yellow;
+  font-size: 15pt;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.h2 {
+    margin-top: 20px;
+}
+
+.pic {
+  width: 350px;
+  margin-top: 5px;
+  margin-bottom:10px;
+  margin-left:30px;
+}
+
+.messengers {
+  list-style-type: none;
+  font-family: "Nunito";
+}
+
+.uselesslinks {
+  font-family: "Nunito";
+}
+
+.copyrights {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  font-size: 180%;
+
+}
+
+
+*{
+  color:white;
+  font-family: "Nunito"; /* Семейство шрифтов */
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+
+}
+
+h1 {
+  color: white; /* Цвет заголовка */
+  font-size: 30pt; /* Размер шрифта в пунктах */
+  font-family: "Nunito-bold"; /* Семейство шрифтов */
+  margin-left: 60px;
+  margin-right: 60px;
+}
+h2 {
+  color: white; /* Цвет заголовка */
+  font-size: 20pt; /* Размер шрифта в пунктах */
+  font-family: "Nunito-bold"; /* Семейство шрифтов */
+  margin-left: 60px;
+  margin-right: 60px;
+}
+p {
+  text-align: justify; /* Выравнивание по ширине */
+  font-size: 20pt;
+  margin-left: 60px; /* Отступ слева в пикселах */
+  margin-right: 10px; /* Отступ справа в пикселах */
+  color: white;
+
+}
+
+li {
+  text-align: justify; /* Выравнивание по ширине */
+  font-size: 20pt;
+  margin-left: 60px; /* Отступ слева в пикселах */
+  margin-right: 10px; /* Отступ справа в пикселах */
+    color: white;
+
+}
+
+.icon {
+  width: 1em;
+  vertical-align: middle;
+  margin: 0 1%;
+}
