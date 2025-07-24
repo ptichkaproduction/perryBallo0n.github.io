@@ -15,6 +15,9 @@ body {
   background: url(background.jpg);
   background-color: white; /* Цвет фона веб-страницы */
   color: #333; /* Цвет основного текста */ 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .title {
@@ -80,9 +83,9 @@ h2 {
 p {
   text-align: justify; /* Выравнивание по ширине */
   font-size: 20pt;
-  margin-left: 60px; /* Отступ слева в пикселах */
-  margin-right: 10px; /* Отступ справа в пикселах */
+
   color: white;
+  margin: 0 5%;
 
 }
 
